@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Iron Hack API </title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <a href="./index.html">
+      See Pokemon Characters
+    </a>
+    <h1> Ajax With jQuery</h1>
+
+    <h2> Get Requests </h2>
+    <br>
+    <button class="post-wall-e"> Add a new character </button>
+    <br>
+    <br>
+    <form class="new-char-form">
+
+      <label for="char-name-input">Character Name</label>
+      <br>
+      <input id="char-name-input"type="text" name="" value="">
+      <br>
+
+      <label for="char-occupation-input">Character Occupation</label>
+      <br>
+      <input id="char-occupation-input"type="text" name="" value="">
+      <br>
+
+      <label for="char-weapon-input">Character Weapon</label>
+      <br>
+      <input id="char-weapon-input" type="text" name="" value="">
+      <br>
+      <br>
+      <button> New Character</button>
+    </form>
+
+    <h3> Update character </h3>
+
+    <form class="update-char-form">
+
+      <label for="update-char-id"> Char ID</label>
+      <br>
+      <input id="update-char-id" type="text" name="" value="">
+      <br>
+
+      <label for="update-name-input">Update Name</label>
+      <br>
+      <input id="update-name-input"type="text" name="" value="">
+      <br>
+
+      <label for="update-occupation-input">Update Occupation</label>
+      <br>
+      <input id="update-occupation-input"type="text" name="" value="">
+      <br>
+
+      <label for="update-weapon-input">Update Weapon</label>
+      <br>
+      <input id="update-weapon-input" type="text" name="" value="">
+      <br>
+      <br>
+      <button> Update This Character </button>
+    </form>
+
+    <ul class="character-list">
+
+    </ul>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+
+    <script src="./js/characters.js" charset="utf-8"></script>
+  </body>
+</html>
